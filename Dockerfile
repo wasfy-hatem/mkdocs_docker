@@ -2,7 +2,7 @@ FROM centos:7
 
 MAINTAINER wasfy
 
-LABEL Remarks="testing for assignment by Wasfy"
+LABEL Remarks="testing for assigning docker data by Wasfy"
 
 
 RUN localedef -i en_US -c -f UTF-8 -A /usr/share/locale/locale.alias en_US.UTF-8
